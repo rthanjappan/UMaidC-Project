@@ -1,0 +1,77 @@
+﻿<Window x:Class="UMaid_Window.ViewActiveBidsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UMaid_Window"
+        mc:Ignorable="d"
+        Title="ViewActiveBids" Height="450" Width="800">
+    <Grid>
+        <!--
+        <Label Content="Bid ID" FontSize="25" Background="LightGray"
+               HorizontalAlignment="Center" Margin="0,0,696,0" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Property Address" FontSize="25" Background="LightGray"
+               HorizontalAlignment="Center" Margin="96,0,496,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Bid Price" FontSize="25" Background="LightGray"
+               HorizontalAlignment="Center" Margin="296,0,380,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.502,0.542"/>
+        <Label Content="(other fields)" FontSize="25" Background="LightGray"
+               HorizontalAlignment="Center" Margin="412,0,180,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Options" FontSize="25" Background="LightGray"
+               HorizontalAlignment="Center" Margin="612,0,0,0" VerticalAlignment="Top" Width="180"/>
+        <Button Name ="btnSave2" Content="Accept Bid" BorderThickness="4" Background="LightGray" FontSize="20"  HorizontalAlignment="Left" Margin="586,60,0,0" VerticalAlignment="Top" Width="196" />
+        -->
+        <FlowDocumentReader>
+            <FlowDocument ColumnWidth="1000">
+                <Table CellSpacing="5">
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn/>
+                        <TableColumn/>
+                        <TableColumn/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow Background="LightBlue">
+                            <TableCell ColumnSpan="4" TextAlignment="Center">
+                                <Paragraph FontSize="24pt" FontWeight="Bold">Select Active Bids</Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow Background="LightGoldenrodYellow">
+                            <TableCell>
+                                <Paragraph FontSize="14pt" FontWeight="Bold">
+                                    BidID
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="14pt" FontWeight="Bold">
+                                    Property Address
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="14pt" FontWeight="Bold">
+                                    Bid Price
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="14pt" FontWeight="Bold">
+                                    (other)
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="14pt" FontWeight="Bold">
+                                    Options
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell ColumnSpan="4">
+                                <Paragraph>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentReader>
+    </Grid>
+</Window>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALItBy0/fG0KGVsENunj5QgAAAAACAAAAAAAQZgAAAAEAACAAAADUMAnuc7kMSwWxy82VXO1XTpaWglaSqCLlxasLSG8mhgAAAAAOgAAAAAIAACAAAACuCT2FNISlLFE8quEVymV146JEymJ2rD41IZlkWlLRwRAAAACKZpXZY7oXZMBdslKzPWSrQAAAABAUlIdwDZZC6VaW25galkAlnIAiVKaHGZnByIPNxHTA0J3txazdmhFZtP+se1yMu6uvTvvrFZCtY0vI6StRZjw=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.jerrybhill.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DAL.dll">
+      <publishTime>10/31/2019 20:26:25</publishTime>
+    </File>
+    <File Include="bin/DAL.dll.config">
+      <publishTime>10/31/2019 18:28:12</publishTime>
+    </File>
+    <File Include="bin/DAL.pdb">
+      <publishTime>10/31/2019 20:26:25</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/31/2019 18:28:24</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/31/2019 18:28:24</publishTime>
+    </File>
+    <File Include="bin/Model.dll">
+      <publishTime>10/31/2019 20:26:25</publishTime>
+    </File>
+    <File Include="bin/Model.dll.config">
+      <publishTime>10/31/2019 18:28:19</publishTime>
+    </File>
+    <File Include="bin/Model.pdb">
+      <publishTime>10/31/2019 20:26:25</publishTime>
+    </File>
+    <File Include="bin/UMaid_Service.dll">
+      <publishTime>10/31/2019 20:26:26</publishTime>
+    </File>
+    <File Include="bin/UMaid_Service.pdb">
+      <publishTime>10/31/2019 20:26:26</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>10/31/2019 18:28:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/31/2019 20:26:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

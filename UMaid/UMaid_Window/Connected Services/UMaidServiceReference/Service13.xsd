@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:59811/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Model" />
+  <xs:import schemaLocation="http://localhost:59811/Service1.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Device.Location" />
+  <xs:element name="GetUserType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q1:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q2:Dto_UserType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q3:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q4:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByUserID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q5:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByUserIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q6:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q7:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q8:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q9:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q10:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q11:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q12:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllUsers">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllUsersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q13:ArrayOfDto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProfile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q14:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProfileResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q15:Dto_Profile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertProfile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="profile" nillable="true" type="q16:Dto_Profile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertProfileResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q17:Dto_Profile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateProfile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="profile" nillable="true" type="q18:Dto_Profile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateProfileResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q19:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProfile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="profile" nillable="true" type="q20:Dto_Profile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProfileResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q21:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllProfiles">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllProfilesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q22:ArrayOfDto_Profile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPicture">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q23:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPictureResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q24:Dto_Picture" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertPicture">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="pictureGiven" nillable="true" type="q25:Dto_Picture" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertPictureResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q26:Dto_Picture" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePicture">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="pictureGiven" nillable="true" type="q27:Dto_Picture" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePictureResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q28:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePicture">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="pictureGiven" nillable="true" type="q29:Dto_Picture" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePictureResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q30:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllPictures">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllPicturesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q31:ArrayOfDto_Picture" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPropertiesByUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q32:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPropertiesByUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q33:ArrayOfDto_Property" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetListings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/System.Device.Location" minOccurs="0" name="location" nillable="true" type="q34:GeoCoordinate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetListingsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q35:ArrayOfDto_Listing" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomerTransactions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q36:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomerTransactionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q37:ArrayOfDto_Transaction" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMaidTransactions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="user" nillable="true" type="q38:Dto_User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMaidTransactionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q39:ArrayOfDto_Transaction" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertProperty">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="p" nillable="true" type="q40:Dto_Property" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertPropertyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q41:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateProperty">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="p" nillable="true" type="q42:Dto_Property" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePropertyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q43:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProperty">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="p" nillable="true" type="q44:Dto_Property" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePropertyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q45:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="bid" nillable="true" type="q46:Dto_Bid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBidResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q47:Dto_Bid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBids">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBidsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q48:ArrayOfDto_Bid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertBid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="bid" nillable="true" type="q49:Dto_Bid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertBidResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q50:Dto_Bid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateBid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="bid" nillable="true" type="q51:Dto_Bid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateBidResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q52:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteBid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="bid" nillable="true" type="q53:Dto_Bid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteBidResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/Model" minOccurs="0" name="Data" nillable="true" type="q54:Dto_Bool" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

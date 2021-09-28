@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_111206_umaidModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PropertType">
+    <Key>
+      <PropertyRef Name="PopertyID" />
+    </Key>
+    <Property Name="PopertyID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PropertyDescription" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK__Property__Popert__440B1D61" FromRole="PropertType" ToRole="Property" />
+  </EntityType>
+  <EntityType Name="Property">
+    <Key>
+      <PropertyRef Name="PopertyID" />
+    </Key>
+    <Property Name="PopertyID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="PopertyTypeID" Type="Int32" />
+    <Property Name="Address1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Address2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PrpertyState" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="Zip" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="lattitude" Type="Double" />
+    <Property Name="longitude" Type="Double" />
+    <NavigationProperty Name="PropertType" Relationship="Self.FK__Property__Popert__440B1D61" FromRole="Property" ToRole="PropertType" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Property__UserID__4316F928" FromRole="Property" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="LoginID" />
+    </Key>
+    <Property Name="LoginID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="LoginDate" Type="DateTime" Precision="3" />
+    <Property Name="lattitude" Type="Double" />
+    <Property Name="longitude" Type="Double" />
+    <NavigationProperty Name="User" Relationship="Self.FK__UserLogin__UserI__3D5E1FD2" FromRole="UserLogin" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserTypeID" Type="Int32" />
+    <Property Name="email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="FName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="StreetName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="Pet" Type="Boolean" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK__Property__UserID__4316F928" FromRole="Users" ToRole="Property" />
+    <NavigationProperty Name="UserLogins" Relationship="Self.FK__UserLogin__UserI__3D5E1FD2" FromRole="Users" ToRole="UserLogin" />
+    <NavigationProperty Name="UserTypeID1" Relationship="Self.FK__Users__UserTypeI__38996AB5" FromRole="Users" ToRole="UserTypeID" />
+  </EntityType>
+  <EntityType Name="UserTypeID">
+    <Key>
+      <PropertyRef Name="UserTypeID1" />
+    </Key>
+    <Property Name="UserTypeID1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserTypeDescription" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Users__UserTypeI__38996AB5" FromRole="UserTypeID" ToRole="Users" />
+  </EntityType>
+  <Association Name="FK__Property__Popert__440B1D61">
+    <End Role="PropertType" Type="Self.PropertType" Multiplicity="0..1" />
+    <End Role="Property" Type="Self.Property" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PropertType">
+        <PropertyRef Name="PopertyID" />
+      </Principal>
+      <Dependent Role="Property">
+        <PropertyRef Name="PopertyTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Property__UserID__4316F928">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Property" Type="Self.Property" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Property">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserLogin__UserI__3D5E1FD2">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="UserLogin" Type="Self.UserLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="UserLogin">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__UserTypeI__38996AB5">
+    <End Role="UserTypeID" Type="Self.UserTypeID" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserTypeID">
+        <PropertyRef Name="UserTypeID1" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="UserTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_111206_umaidEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PropertTypes" EntityType="Self.PropertType" />
+    <EntitySet Name="Properties" EntityType="Self.Property" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="UserLogins" EntityType="Self.UserLogin" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="UserTypeIDs" EntityType="Self.UserTypeID" />
+    <AssociationSet Name="FK__Property__Popert__440B1D61" Association="Self.FK__Property__Popert__440B1D61">
+      <End Role="PropertType" EntitySet="PropertTypes" />
+      <End Role="Property" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Property__UserID__4316F928" Association="Self.FK__Property__UserID__4316F928">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Property" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserLogin__UserI__3D5E1FD2" Association="Self.FK__UserLogin__UserI__3D5E1FD2">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserLogin" EntitySet="UserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__UserTypeI__38996AB5" Association="Self.FK__Users__UserTypeI__38996AB5">
+      <End Role="UserTypeID" EntitySet="UserTypeIDs" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

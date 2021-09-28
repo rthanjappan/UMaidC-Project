@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_111206_umaidModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Addresses">
+    <Key>
+      <PropertyRef Name="AddressID" />
+    </Key>
+    <Property Name="AddressID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="propertyID" Type="int" />
+    <Property Name="Line1" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Line2" Type="varchar" MaxLength="50" />
+    <Property Name="city" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="state" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="zip" Type="int" Nullable="false" />
+    <Property Name="latitude" Type="float" />
+    <Property Name="longitude" Type="float" />
+  </EntityType>
+  <EntityType Name="Bids">
+    <Key>
+      <PropertyRef Name="bidID" />
+    </Key>
+    <Property Name="bidID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="listingID" Type="int" Nullable="false" />
+    <Property Name="bidPrice" Type="float" Nullable="false" />
+    <Property Name="startTime" Type="datetime" Nullable="false" />
+    <Property Name="bidExpires" Type="datetime" Nullable="false" />
+    <Property Name="isAccepted" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CleaningLevels">
+    <Key>
+      <PropertyRef Name="CleaningLevelID" />
+    </Key>
+    <Property Name="CleaningLevelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Listings">
+    <Key>
+      <PropertyRef Name="listingID" />
+    </Key>
+    <Property Name="listingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="propertyID" Type="int" Nullable="false" />
+    <Property Name="listingStartTime" Type="datetime" />
+    <Property Name="listingExpiryTime" Type="datetime" />
+    <Property Name="cleaningLevelID" Type="int" />
+    <Property Name="additionalInfo" Type="varchar" MaxLength="200" />
+    <Property Name="isLive" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pictures">
+    <Key>
+      <PropertyRef Name="pictureID" />
+    </Key>
+    <Property Name="pictureID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="propertyID" Type="int" />
+    <Property Name="picturePath" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Profiles">
+    <Key>
+      <PropertyRef Name="profileID" />
+    </Key>
+    <Property Name="profileID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="AccountNumber" Type="int" />
+    <Property Name="AvgRating" Type="float" />
+    <Property Name="Bio" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Properties">
+    <Key>
+      <PropertyRef Name="PropertyID" />
+    </Key>
+    <Property Name="PropertyID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="priceLight" Type="float" />
+    <Property Name="priceMedium" Type="float" />
+    <Property Name="priceHeavy" Type="float" />
+    <Property Name="AddressID" Type="int" Nullable="false" />
+    <Property Name="latitude" Type="float" />
+    <Property Name="longitude" Type="float" />
+    <Property Name="numBedrooms" Type="int" />
+    <Property Name="numBathrooms" Type="int" />
+    <Property Name="size" Type="int" />
+    <Property Name="isVacant" Type="int" />
+    <Property Name="hasPets" Type="int" />
+    <Property Name="description" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Transactions">
+    <Key>
+      <PropertyRef Name="transactionID" />
+    </Key>
+    <Property Name="transactionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="listingID" Type="int" Nullable="false" />
+    <Property Name="bidID" Type="int" Nullable="false" />
+    <Property Name="maidRating" Type="float" />
+    <Property Name="customerRating" Type="float" />
+  </EntityType>
+  <EntityType Name="USE">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserTypeID" Type="int" />
+    <Property Name="email" Type="varchar" MaxLength="200" />
+    <Property Name="FName" Type="varchar" MaxLength="50" />
+    <Property Name="LName" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="20" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="12" />
+    <Property Name="StreetName" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="PostalCode" Type="varchar" MaxLength="10" />
+    <Property Name="State" Type="varchar" MaxLength="2" />
+    <Property Name="Pet" Type="bit" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="Rating" Type="float" />
+    <Property Name="numOfRatings" Type="int" />
+  </EntityType>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="LoginID" />
+    </Key>
+    <Property Name="LoginID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="LoginDate" Type="datetime" />
+    <Property Name="lattitude" Type="float" />
+    <Property Name="longitude" Type="float" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="LName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="EmailID" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="passWord" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="UserType" Type="int" Nullable="false" />
+    <Property Name="StreetName" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="PostalCode" Type="varchar" MaxLength="10" />
+    <Property Name="State" Type="varchar" MaxLength="2" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="Rating" Type="float" />
+    <Property Name="numOfRating" Type="int" />
+  </EntityType>
+  <EntityType Name="UserTypes">
+    <Key>
+      <PropertyRef Name="UserTypeID" />
+    </Key>
+    <Property Name="UserTypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserTypeDescription" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK__UserLogin__UserI__2180FB33">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="UserLogin" Type="Self.UserLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="UserLogin">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__UserTypeI__02084FDA">
+    <End Role="UserTypes" Type="Self.UserTypes" Multiplicity="0..1" />
+    <End Role="USE" Type="Self.USE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserTypes">
+        <PropertyRef Name="UserTypeID" />
+      </Principal>
+      <Dependent Role="USE">
+        <PropertyRef Name="UserTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AddressProperties">
+    <End Role="Addresses" Type="Self.Addresses" Multiplicity="1" />
+    <End Role="Properties" Type="Self.Properties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Addresses">
+        <PropertyRef Name="AddressID" />
+      </Principal>
+      <Dependent Role="Properties">
+        <PropertyRef Name="AddressID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BidTransaction">
+    <End Role="Bids" Type="Self.Bids" Multiplicity="1" />
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bids">
+        <PropertyRef Name="bidID" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="bidID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CleaningLevelListing">
+    <End Role="CleaningLevels" Type="Self.CleaningLevels" Multiplicity="0..1" />
+    <End Role="Listings" Type="Self.Listings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CleaningLevels">
+        <PropertyRef Name="CleaningLevelID" />
+      </Principal>
+      <Dependent Role="Listings">
+        <PropertyRef Name="cleaningLevelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ListingBid">
+    <End Role="Listings" Type="Self.Listings" Multiplicity="1" />
+    <End Role="Bids" Type="Self.Bids" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Listings">
+        <PropertyRef Name="listingID" />
+      </Principal>
+      <Dependent Role="Bids">
+        <PropertyRef Name="listingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ListingTransaction">
+    <End Role="Listings" Type="Self.Listings" Multiplicity="1" />
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Listings">
+        <PropertyRef Name="listingID" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="listingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonAddressses">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Addresses" Type="Self.Addresses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Addresses">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonBid">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Bids" Type="Self.Bids" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Bids">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonListing">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Listings" Type="Self.Listings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Listings">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonProperties">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Properties" Type="Self.Properties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Properties">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonTransaction">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PictureProfile">
+    <End Role="Pictures" Type="Self.Pictures" Multiplicity="0..1" />
+    <End Role="Profiles" Type="Self.Profiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pictures">
+        <PropertyRef Name="pictureID" />
+      </Principal>
+      <Dependent Role="Profiles">
+        <PropertyRef Name="pictureID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropertiesListing">
+    <End Role="Properties" Type="Self.Properties" Multiplicity="1" />
+    <End Role="Listings" Type="Self.Listings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Properties">
+        <PropertyRef Name="PropertyID" />
+      </Principal>
+      <Dependent Role="Listings">
+        <PropertyRef Name="propertyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropertyPicture">
+    <End Role="Properties" Type="Self.Properties" Multiplicity="0..1" />
+    <End Role="Pictures" Type="Self.Pictures" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Properties">
+        <PropertyRef Name="PropertyID" />
+      </Principal>
+      <Dependent Role="Pictures">
+        <PropertyRef Name="propertyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserPicture">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Pictures" Type="Self.Pictures" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Pictures">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserProfile">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Profiles" Type="Self.Profiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Profiles">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_111206_umaidModelStoreContainer">
+    <EntitySet Name="Addresses" EntityType="Self.Addresses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bids" EntityType="Self.Bids" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CleaningLevels" EntityType="Self.CleaningLevels" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Listings" EntityType="Self.Listings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pictures" EntityType="Self.Pictures" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profiles" EntityType="Self.Profiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Properties" EntityType="Self.Properties" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transactions" EntityType="Self.Transactions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USE" EntityType="Self.USE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserLogin" EntityType="Self.UserLogin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserTypes" EntityType="Self.UserTypes" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__UserLogin__UserI__2180FB33" Association="Self.FK__UserLogin__UserI__2180FB33">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserLogin" EntitySet="UserLogin" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__UserTypeI__02084FDA" Association="Self.FK__Users__UserTypeI__02084FDA">
+      <End Role="UserTypes" EntitySet="UserTypes" />
+      <End Role="USE" EntitySet="USE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AddressProperties" Association="Self.FK_AddressProperties">
+      <End Role="Addresses" EntitySet="Addresses" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BidTransaction" Association="Self.FK_BidTransaction">
+      <End Role="Bids" EntitySet="Bids" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CleaningLevelListing" Association="Self.FK_CleaningLevelListing">
+      <End Role="CleaningLevels" EntitySet="CleaningLevels" />
+      <End Role="Listings" EntitySet="Listings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ListingBid" Association="Self.FK_ListingBid">
+      <End Role="Listings" EntitySet="Listings" />
+      <End Role="Bids" EntitySet="Bids" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ListingTransaction" Association="Self.FK_ListingTransaction">
+      <End Role="Listings" EntitySet="Listings" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonAddressses" Association="Self.FK_PersonAddressses">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Addresses" EntitySet="Addresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonBid" Association="Self.FK_PersonBid">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Bids" EntitySet="Bids" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonListing" Association="Self.FK_PersonListing">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Listings" EntitySet="Listings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonProperties" Association="Self.FK_PersonProperties">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonTransaction" Association="Self.FK_PersonTransaction">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PictureProfile" Association="Self.FK_PictureProfile">
+      <End Role="Pictures" EntitySet="Pictures" />
+      <End Role="Profiles" EntitySet="Profiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropertiesListing" Association="Self.FK_PropertiesListing">
+      <End Role="Properties" EntitySet="Properties" />
+      <End Role="Listings" EntitySet="Listings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropertyPicture" Association="Self.FK_PropertyPicture">
+      <End Role="Properties" EntitySet="Properties" />
+      <End Role="Pictures" EntitySet="Pictures" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserPicture" Association="Self.FK_UserPicture">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Pictures" EntitySet="Pictures" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserProfile" Association="Self.FK_UserProfile">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Profiles" EntitySet="Profiles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,289 @@
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe.config
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\UMaid_Window.pdb
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\DAL.dll
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.dll
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.dll
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\Model.dll
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\DAL.pdb
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\DAL.dll.config
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\Model.pdb
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.xml
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.xml
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csprojAssemblyReference.cache
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\MainWindow.g.cs
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.g.cs
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\App.g.cs
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.cache
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.lref
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\MainWindow.baml
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.baml
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.g.resources
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.Properties.Resources.resources
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.GenerateResource.cache
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CoreCompileInputs.cache
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CopyComplete
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.exe
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.pdb
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.g.cs
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.g.cs
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.baml
+C:\Rose\GTCSem5\Classmates\UMaidTeam\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.baml
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe.config
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\UMaid_Window.pdb
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\DAL.dll
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.dll
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.dll
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\Model.dll
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\DAL.pdb
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\DAL.dll.config
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\Model.pdb
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.xml
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.xml
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csprojResolveAssemblyReference.cache
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.g.cs
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\MainWindow.g.cs
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.g.cs
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.g.cs
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\App.g.cs
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.cache
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.lref
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.baml
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\MainWindow.baml
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.baml
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.baml
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.g.resources
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.Properties.Resources.resources
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.GenerateResource.Cache
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CoreCompileInputs.cache
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.exe
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.pdb
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csprojAssemblyReference.cache
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.g.cs
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\MainWindow.g.cs
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.g.cs
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\App.g.cs
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.cache
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.lref
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe.config
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\UMaid_Window.pdb
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\DAL.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\Model.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\DAL.pdb
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\DAL.dll.config
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\Model.pdb
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\Model.dll.config
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.xml
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.xml
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.baml
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\MainWindow.baml
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.baml
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.g.resources
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.Properties.Resources.resources
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.GenerateResource.cache
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CoreCompileInputs.cache
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CopyComplete
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.exe
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Window\obj\Debug\UMaid_Window.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe.config
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\UMaid_Window.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\DAL.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\EntityFramework.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\Model.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\DAL.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\DAL.dll.config
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\Model.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\Model.dll.config
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\EntityFramework.xml
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.xml
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csprojAssemblyReference.cache
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\MainWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\App.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.cache
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.lref
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\MainWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.g.resources
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.Properties.Resources.resources
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.GenerateResource.cache
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CoreCompileInputs.cache
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CopyComplete
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.exe
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.pdb
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe.config
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\UMaid_Window.pdb
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\DAL.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\EntityFramework.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\Model.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\DAL.pdb
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\DAL.dll.config
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\Model.pdb
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\Model.dll.config
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\EntityFramework.xml
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csprojAssemblyReference.cache
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.g.cs
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\MainWindow.g.cs
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\App.g.cs
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.cache
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.lref
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\CustomerProfileWindow.baml
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\MainWindow.baml
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.baml
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.g.resources
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.Properties.Resources.resources
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.GenerateResource.cache
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CoreCompileInputs.cache
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CopyComplete
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.exe
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Window\obj\Debug\UMaid_Window.pdb
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe.config
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\UMaid_Window.pdb
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\DAL.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\EntityFramework.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\Model.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\DAL.pdb
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\DAL.dll.config
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\Model.pdb
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\Model.dll.config
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\EntityFramework.xml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\CustomerMainMenuWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\LoginWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\MaidMainMenuWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\ManageListingWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\SearchListingWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\ViewActiveBidsWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\App.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.cache
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.lref
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\CustomerMainMenuWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\LoginWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\MaidMainMenuWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\ManageListingWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\SearchListingWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\ViewActiveBidsWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window.g.resources
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window.Properties.Resources.resources
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CopyComplete
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window.exe
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\UMaid_Window.pdb
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\TransactionWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\TransactionWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\ProfileWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\ProfileWindow.baml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\SubmitBidWindow.g.cs
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Window\obj\Debug\SubmitBidWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe.config
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\UMaid_Window.pdb
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\DAL.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\EntityFramework.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\Model.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\DAL.pdb
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\DAL.dll.config
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\Model.pdb
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\Model.dll.config
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\EntityFramework.xml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.xml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csprojAssemblyReference.cache
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\CustomerMainMenuWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\LoginWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\MaidMainMenuWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ManageListingWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ProfileWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\SearchListingWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\SubmitBidWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\TransactionWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ViewActiveBidsWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\App.g.cs
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.cache
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.lref
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\CustomerMainMenuWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\LoginWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\MaidMainMenuWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ManageListingWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ProfileWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\SearchListingWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\SubmitBidWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\TransactionWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ViewActiveBidsWindow.baml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.g.resources
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.Properties.Resources.resources
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.GenerateResource.cache
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CoreCompileInputs.cache
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CopyComplete
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.exe
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe.config
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\UMaid_Window.exe
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\UMaid_Window.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\DAL.dll
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\EntityFramework.dll
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.dll
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\Model.dll
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\DAL.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\DAL.dll.config
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\Model.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\Model.dll.config
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\EntityFramework.xml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\bin\Debug\EntityFramework.SqlServer.xml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csprojAssemblyReference.cache
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\CustomerMainMenuWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\LoginWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\MaidMainMenuWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ManageListingWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ProfileWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\SearchListingWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\SubmitBidWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\TransactionWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ViewActiveBidsWindow.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\App.g.cs
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.cache
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window_MarkupCompile.lref
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\CustomerMainMenuWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\LoginWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\MaidMainMenuWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ManageListingWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ManagePropertyWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ProfileWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\RegistrationWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\SearchListingWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\SubmitBidWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\TransactionWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\ViewActiveBidsWindow.baml
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.g.resources
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.Properties.Resources.resources
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.GenerateResource.cache
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CoreCompileInputs.cache
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.csproj.CopyComplete
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.exe
+E:\GTCSem5\AdvSysProjectHill\UMaidRegAndProfileDec62019\UMaidRegAndProfileRoseNov202019Final\UMaidLatestBuild_110919\UMaid\UMaid_Window\obj\Debug\UMaid_Window.pdb

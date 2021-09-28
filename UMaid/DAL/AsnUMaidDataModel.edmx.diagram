@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fc8c2573303846d2af85679787c8d178" Name="Diagram1" ZoomLevel="75">
+        <EntityTypeShape EntityType="DB_111206_asnModel.AddressesTest" Width="1.5" PointX="7.5" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.BidsTest" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.CleaningLevelsTest" Width="1.5" PointX="8.25" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.ListingsTest" Width="1.5" PointX="10.5" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.PicturesTest" Width="1.5" PointX="7.5" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.ProfilesTest" Width="1.5" PointX="9.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.PropertiesTest" Width="1.5" PointX="5.25" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.TransactionsTest" Width="1.5" PointX="12.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.UserLoginsTest" Width="1.5" PointX="5.25" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.UsersTest" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_111206_asnModel.UserTypesTest" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_PropertiesAddresses" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_UsersAddresses" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_BidsTransactions" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_ListingsBids" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_UsersBids" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_CleaningLevelsListings" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_ListingsTransactions" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_PropertiesListings" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_UsersListings" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_PicturesProfiles" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_PropertiesPictures" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_UsersPictures" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_UsersProfiles" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_UsersProperties" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_UsersTransactions" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_UsersUserLogins" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_111206_asnModel.FK_UserTypesUsers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

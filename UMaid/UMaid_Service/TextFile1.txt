@@ -1,0 +1,856 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Device.Location;
+using DAL;
+using Model;
+
+namespace UMaid_Service
+{
+    public class Service1 : IService1
+    {   
+        public Dto_User GetUser(Dto_User user)
+        {
+            Dto_User p = new Dto_User();
+            using (UMaidEntities db = new UMaidEntities())
+            {
+                //var singleRecord = db.Users.Find(user.UserID);
+                var singleRecord = db.USEs.Where(i => i.email == user.Email 
+                                            && i.Password == user.Password).SingleOrDefault();
+
+                if (singleRecord != null)
+                {
+                    p.UserID = singleRecord.UserID;
+                    p.UserTypeID = singleRecord?.UserTypeID?? 0;
+                    p.FName = singleRecord.FName;
+                    p.LName = singleRecord.LName;
+                    p.Email = singleRecord.email;
+                    p.Password = singleRecord.Password;
+                }
+                else
+                {
+                    p.ErrorMessage = "not found";
+                    p.Error = true;
+                }
+            }
+
+            return p;
+        }
+       
+
+#region accessTableUsers
+        public Dto_User GetUserByUserID(Dto_User user)
+        {
+            Dto_User p = new Dto_User();
+            using (UMaidEntities db = new UMaidEntities())
+            {
+                var singleRecord = db.USEs.Where(c => c.UserID == user.UserID).FirstOrDefault();
+               
+
+                if (singleRecord != null)
+                {
+                    p.UserID = singleRecord.UserID;
+                    p.UserTypeID = (int)singleRecord.UserTypeID;
+                    p.Email = singleRecord.email;
+                    p.FName = singleRecord.FName;
+                    p.LName = singleRecord.LName;
+                    p.Password = singleRecord.Password;
+                    p.PhoneNumber = singleRecord.PhoneNumber;
+                    p.StreetName = singleRecord.StreetName;
+                    p.City = singleRecord.City;
+                    p.PostalCode = singleRecord.PostalCode;
+                    p.State = singleRecord.State;
+                    p.Pet = (bool)singleRecord.Pet;
+                    p.StartDate = singleRecord.StartDate;
+                    p.Rating = singleRecord.Rating;
+                    p.NumOfRatings = singleRecord.numOfRatings;
+                }
+                else
+                {
+                    p.ErrorMessage = "not found";
+                    p.Error = true;
+                }
+            }
+            return p;
+        }
+
+        public Dto_User InsertUser(Dto_User user)
+        {
+            Dto_User p = new Dto_User();
+
+            using (UMaidEntities db = new UMaidEntities())
+            {
+
+                var singleRecord = new DAL.USE();
+                
+                singleRecord.UserTypeID = (int)user.UserTypeID;
+                singleRecord.email = user.Email;
+                singleRecord.FName = user.FName;
+                singleRecord.LName = user.LName;
+                singleRecord.Password = user.Password;
+                singleRecord.PhoneNumber = user.PhoneNumber;
+                singleRecord.StreetName = user.StreetName;
+                singleRecord.City = user.City;
+                singleRecord.PostalCode = user.PostalCode;
+                singleRecord.State = user.State;
+                singleRecord.Pet = (bool)user.Pet;
+                singleRecord.Rating = user.Rating;
+                singleRecord.numOfRatings = user.NumOfRatings;
+                try
+                {
+                    singleRecord.StartDate = user.StartDate;
+
+                }
+                catch (Exception ex)
+                {
+                    string message = ex.Message;
+                    p.UserID = -1;
+                    return p;
+                }
+
+                var newRecord = db.USEs.Add(singleRecord);
+                db.SaveChanges();
+
+                if (newRecord != null)
+                {
+                    p.UserID = newRecord.UserID;
+                    p.UserTypeID = (int)newRecord.UserTypeID;
+                    p.Email = newRecord.email;
+                    p.FName = newRecord.FName;
+                    p.LName = newRecord.LName;
+                    p.Password = newRecord.Password;
+                    p.PhoneNumber = newRecord.PhoneNumber;
+                    p.StreetName = newRecord.StreetName;
+                    p.City = newRecord.City;
+                    p.PostalCode = newRecord.PostalCode;
+                    p.State = newRecord.State;
+                    p.Pet = (bool)newRecord.Pet;
+                    p.StartDate = newRecord.StartDate;
+                    p.Rating = newRecord.Rating;
+                    p.NumOfRatings = newRecord.numOfRatings;
+
+                }
+            }
+            return p;
+        }
+
+        public Dto_Bool UpdateUser(Dto_User user)
+        {
+            Dto_Bool success = new Dto_Bool();
+
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    //fetching the existing record whose UserID == user.UserID from 
+                    //the database
+                    //var userRecordFromDB = db.Users.Find(user.UserID);
+
+                    var userRecordFromDB = db.USEs.Where(c => c.UserID == user.UserID).FirstOrDefault();
+
+                    //changing the values
+                    userRecordFromDB.FName = user.FName;
+                    userRecordFromDB.LName = user.LName;
+
+                    userRecordFromDB.UserTypeID = (int)user.UserTypeID;
+                    userRecordFromDB.email = user.Email;
+                    userRecordFromDB.FName = user.FName;
+                    userRecordFromDB.LName = user.LName;
+                    userRecordFromDB.Password = user.Password;
+                    userRecordFromDB.PhoneNumber = user.PhoneNumber;
+                    userRecordFromDB.StreetName = user.StreetName;
+                    userRecordFromDB.City = user.City;
+                    userRecordFromDB.PostalCode = user.PostalCode;
+                    userRecordFromDB.State = user.State;
+                    userRecordFromDB.Pet = (bool)user.Pet;
+                    userRecordFromDB.Rating = user.Rating;
+                    userRecordFromDB.numOfRatings = user.NumOfRatings;
+                    try
+                    {
+                        userRecordFromDB.StartDate = user.StartDate;
+
+                    }
+                    catch (Exception ex)
+                    {
+
+                        success.success = false;
+                        success.ErrorMessage = ex.Message;
+                        return success;
+                    }
+                    //updating the values in database
+                    db.SaveChanges();
+
+                    success.success = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                success.success = false;
+                success.ErrorMessage = ex.Message;
+            }
+            return success;
+        }
+
+
+        public Dto_Bool DeleteUser(Dto_User user)
+        {
+            Model.Dto_User p = new Model.Dto_User();
+            Dto_Bool success = new Dto_Bool();
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    var userRecordFromDB = db.USEs.Where(c => c.UserID == user.UserID).FirstOrDefault();
+
+                    db.USEs.Remove(userRecordFromDB);
+                    db.SaveChanges();
+                    success.success = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                success.success = false;
+                success.ErrorMessage = ex.Message;
+            }
+            return success;
+        }
+        public List<Dto_User> GetAllUsers()
+        {
+            List<Dto_User> users = new List<Dto_User>();
+
+            using (UMaidEntities db = new UMaidEntities())
+            {
+                var list = db.USEs;
+                foreach (var u in list)
+                {
+                    var p = new Dto_User();
+                    p.UserID = u.UserID;
+                    p.UserTypeID = (int)u.UserTypeID;
+                    p.Email = u.email;
+                    p.FName = u.FName;
+                    p.LName = u.LName;
+                    p.Password = u.Password;
+                    p.PhoneNumber = u.PhoneNumber;
+                    p.StreetName = u.StreetName;
+                    p.City = u.City;
+                    p.PostalCode = u.PostalCode;
+                    p.State = u.State;
+                    p.Pet = (bool)u.Pet;
+                    p.StartDate = u.StartDate;
+                    p.Rating = u.Rating;
+                    p.NumOfRatings = u.numOfRatings;
+
+                    users.Add(p);
+                }
+            }
+
+            return users;
+        }
+
+        #endregion accessTableUsers
+
+        #region accessTableProfile
+
+        
+        public Dto_Profile GetProfile(Dto_User user)
+        {
+            Dto_Profile p = new Dto_Profile();
+            using (UMaidEntities db = new UMaidEntities())
+            {
+                var singleRecord = db.Profiles.Where(c => c.userID == user.UserID).
+                    FirstOrDefault();
+
+
+                if (singleRecord != null)
+                {
+                    p.ProfileID = singleRecord.profileID;
+                    p.UserID = singleRecord.userID;
+                    p.PictureID = (int)singleRecord.pictureID;
+                    p.AccountNumber = (int)singleRecord.AccountNumber;
+                    p.AvgRating = (double)singleRecord.AvgRating;
+                    p.Bio = singleRecord.Bio;
+        
+                }
+                else
+                {
+                    p.ErrorMessage = "not found";
+                    p.Error = true;
+                }
+            }
+            return p;
+        }
+
+        public Dto_Profile InsertProfile(Dto_Profile profile)
+        {
+            Dto_Profile p = new Dto_Profile();
+
+            using (UMaidEntities db = new UMaidEntities())
+            {
+
+                var singleRecord = new DAL.Profile();
+
+                //singleRecord.profileID = profile.profileID;
+                singleRecord.userID = profile.UserID;
+                singleRecord.pictureID = (int)profile.PictureID;
+                singleRecord.AccountNumber = profile.AccountNumber;
+                singleRecord.AvgRating = profile.AvgRating;
+                singleRecord.Bio = profile.Bio;
+
+                var newRecord = db.Profiles.Add(singleRecord);
+                db.SaveChanges();
+
+                if (newRecord != null)
+                {
+                    
+                    p.ProfileID = newRecord.profileID;
+                    p.UserID = newRecord.userID;
+                    p.PictureID = (int)newRecord.pictureID;
+                    p.AccountNumber = (int)newRecord.AccountNumber;
+                    p.AvgRating = (double)newRecord.AvgRating;
+                    p.Bio = newRecord.Bio;
+
+                }
+            }
+            return p;
+        }
+
+        public Dto_Bool UpdateProfile(Dto_Profile profile)
+        {
+            Dto_Bool success = new Dto_Bool();
+
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    //fetching the existing record whose UserID == user.UserID from 
+                    //the database
+                    //var userRecordFromDB = db.Users.Find(user.UserID);
+
+                    var userRecordFromDB = db.Profiles.Where(
+                        c => c.userID == profile.UserID).FirstOrDefault();
+
+                    //changing the values
+                    
+                    //userRecordFromDB.profileID = profile.profileID;
+                    //userRecordFromDB.userID = profile.userID;
+                    userRecordFromDB.pictureID = (int)profile.PictureID;
+                    userRecordFromDB.AccountNumber = (int)profile.AccountNumber;
+                    userRecordFromDB.AvgRating = (double)profile.AvgRating;
+                    userRecordFromDB.Bio = profile.Bio;
+                    //updating the values in database
+                    db.SaveChanges();
+
+                    success.success = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                success.success = false;
+                success.ErrorMessage = ex.Message;
+            }
+            return success;
+        }
+
+
+        public Dto_Bool DeleteProfile(Dto_User user)
+        {
+            Dto_Profile p = new Dto_Profile();
+            Dto_Bool success = new Dto_Bool();
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    var userRecordFromDB = db.Profiles.Where(
+                        c => c.userID == user.UserID).FirstOrDefault();
+
+                    db.Profiles.Remove(userRecordFromDB);
+                    db.SaveChanges();
+                    success.success = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                success.success = false;
+                success.ErrorMessage = ex.Message;
+            }
+            return success;
+        }
+        public List<Dto_Profile> GetAllProfiles()
+        {
+            List<Dto_Profile> profiles = new List<Dto_Profile>();
+
+            using (UMaidEntities db = new UMaidEntities())
+            {
+                var list = db.Profiles;
+                foreach (var u in list)
+                {
+                    var p = new Dto_Profile();
+                    p.UserID = u.userID;
+                    p.ProfileID = u.profileID;
+                    p.UserID = u.userID;
+                    p.PictureID = (int)u.pictureID;
+                    p.AccountNumber = (int)u.AccountNumber;
+                    p.AvgRating = (double)u.AvgRating;
+                    p.Bio = u.Bio;
+
+                    profiles.Add(p);
+                }
+            }
+
+            return profiles;
+        }
+        #endregion accessTableProfile
+        public List<Dto_Property> GetPropertiesByUser(Dto_User user)
+        {
+            List<Dto_Property> properties = new List<Dto_Property>();
+
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    var propertiesFromSQL = db.Properties.Where(c => c.userID == user.UserID);
+                    foreach (var o in propertiesFromSQL)
+                    {
+                        var a = db.Addresses.SingleOrDefault(c => c.AddressID
+                                    == o.Address.AddressID);
+
+                        // Get associated property from database
+                        var p = new Dto_Property
+                        {
+                            UserID = o.userID,
+                            PropertyID = o.PropertyID,
+
+                            // Get associated address from database
+                            Address = new Dto_Address()
+                            {
+                                AddressID = o.Address.AddressID,
+                                AddressLine1 = a.Line1,
+                                AddressLine2 = a.Line2,
+                                City = a.city,
+                                State = a.state,
+                                ZipCode = a.zip.ToString()
+                            },
+
+                            // Instantiate an empty photo list
+                            photos = new List<string>() { },
+
+                            priceLight = o?.priceLight ?? 0,
+                            priceMedium = o?.priceMedium ?? 0,
+                            priceHeavy = o?.priceHeavy ?? 0,
+
+                            size = Convert.ToInt32(o.size),
+                            numBeds = Convert.ToInt32(o.numBedrooms),
+                            numBaths = Convert.ToInt32(o.numBathrooms),
+                            isVacant = o.isVacant == 1 ? true : false,
+                            hasPets = o.hasPets == 1 ? true : false,
+                            desc = o.description
+                        };
+
+                        // Loop to add pictures to the picture list
+                        //var n = db.Pictures.Where(c => c.propertyID == o.PropertyID).ToList();
+                        //if (n != null)
+                        //{
+                        //    for (int i = 0; i < n.Count; i++)
+                        //    {
+                        //        p.photos.Add(n.ElementAt(i).picturePath);
+                        //    }
+                        //}
+
+                        properties.Add(p);
+                    }
+                }
+                return properties;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+            
+        }
+        public List<Dto_Listing> GetListings(GeoCoordinate location)
+        {
+            List<Dto_Listing> localListings = new List<Dto_Listing>();
+            List<Dto_Listing> allListings = new List<Dto_Listing>();
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    var list = db.Listings.Where(l => l.isLive != 0);
+                    foreach (var listing in list)
+                    {
+                        var tempListing = new Dto_Listing();
+                        tempListing.listingID = listing.listingID;
+                        tempListing.propertyID = listing.propertyID;
+                        tempListing.userID = listing.userID;
+                        tempListing.listingStartTime = listing?.listingStartTime ?? new DateTime();
+                        tempListing.listingExpiryTime = listing?.listingExpiryTime ?? new DateTime();
+                        tempListing.cleaningLevelID = listing?.cleaningLevelID ?? 0;
+                        tempListing.additionalInfo = listing.additionalInfo;
+                        tempListing.isLive = listing.isLive == 1 ? true : false;
+                        allListings.Add(tempListing);
+                    }
+
+                    foreach (var listing in allListings)
+                    {
+                        var property = db.Properties.Where(i => i.PropertyID == listing.propertyID).SingleOrDefault();
+                        if (location.GetDistanceTo(new GeoCoordinate(property.Address?.latitude ?? 0, 
+                            property.Address?.longitude ?? 0)) < 32186.9)
+                        {
+                            listing.location = new GeoCoordinate(property?.latitude ?? 0, property?.longitude ?? 0);
+                            localListings.Add(listing);
+                        }
+                    }
+
+                    return localListings;
+                }
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public Dto_Bid GetBid(Dto_Bid bid)
+        {
+            Dto_Bid b = new Dto_Bid();
+            using (UMaidEntities db = new UMaidEntities())
+            {
+                var singleRecord = db.Bids.Where(c => c.bidID == bid.BidID).SingleOrDefault();
+
+                if (singleRecord != null)
+                {
+                    b.BidID = singleRecord.bidID;
+                    b.ListingID = singleRecord.listingID;
+                    b.UserID = singleRecord.userID;
+                    b.BidPrice = singleRecord.bidPrice;
+                    b.StartTime = singleRecord.startTime;
+                    b.BidExpires = singleRecord.bidExpires;
+                    b.IsAccepted = singleRecord.isAccepted;
+                }
+                else
+                {
+                    b.ErrorMessage = "Not found";
+                    b.Error = true;
+                }
+            }
+            return b;
+        }
+        public List<Dto_Bid> GetBids()
+        {
+            List<Dto_Bid> bidList = new List<Dto_Bid>();
+
+            using (UMaidEntities db = new UMaidEntities())
+            {
+                var bidObjects = db.Bids.ToList();
+
+                foreach (var o in bidObjects)
+                {
+                    Dto_Bid bid = new Dto_Bid();
+
+                    bid.BidID = o.bidID;
+                    bid.ListingID = o.listingID;
+                    bid.UserID = o.userID;
+                    bid.BidPrice = o.bidPrice;
+                    bid.StartTime = o.startTime;
+                    bid.BidExpires = o.bidExpires;
+                    bid.IsAccepted = o.isAccepted;
+
+                    bidList.Add(bid);
+                }
+            }
+            return bidList;
+        }
+        public List<Dto_Transaction> GetCustomerTransactions(Dto_User user)
+        {
+            List<Dto_Transaction> transactions;
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    var listing = db.Listings.Where(b => b.userID == user.UserID).FirstOrDefault();
+                    transactions = (List<Dto_Transaction>)db.Transactions.Where(t => t.listingID == listing.listingID);
+
+                    return transactions;
+                }
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public List<Dto_Transaction> GetMaidTransactions(Dto_User user)
+        {
+            List<Dto_Transaction> transactions;
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    var bid = db.Bids.Where(b => b.userID == user.UserID).FirstOrDefault();
+
+                    transactions = (List<Dto_Transaction>)db.Transactions.Where(t => t.bidID == bid.bidID);
+
+                    return transactions;
+                }
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public Dto_Bool InsertProperty(Dto_Property property)
+        {
+            Dto_Bool isInserted = new Dto_Bool();
+
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    // Save address to the database
+                    var a = new Address
+                    {
+                        userID = property.UserID,
+                        Line1 = property.Address?.AddressLine1,
+                        Line2 = property.Address?.AddressLine2,
+                        city = property.Address?.City,
+                        state = property.Address?.State,
+                        zip = string.IsNullOrWhiteSpace(property.Address.ZipCode) ? 0
+                            : Convert.ToInt32(property.Address.ZipCode)
+                    };
+
+                    db.Addresses.Add(a);
+                    db.SaveChanges();
+
+                    // Save property to the database
+                    var p = new Property
+                    {
+                        userID = property.UserID,
+                        AddressID = a.AddressID,
+                        size = property.size,
+
+                        priceLight = property.priceLight,
+                        priceMedium = property.priceMedium,
+                        priceHeavy = property.priceHeavy,
+                        numBedrooms = property.numBeds,
+                        numBathrooms = property.numBaths,
+                        description = property.desc,
+                        isVacant = property.isVacant ? 1 : 0,
+                        hasPets = property.hasPets ? 1 : 0
+                    };
+                    
+                    db.Properties.Add(p);
+                    db.SaveChanges();
+
+                    // Add created PropertyID back to the address
+                    var n = db.Addresses.Where(c => c.AddressID == p.AddressID).SingleOrDefault();
+                    var m = db.Properties.Where(c => n.AddressID == c.AddressID).SingleOrDefault();
+                    n.propertyID = m.PropertyID;
+
+                    // Save property pictures to the database
+                    //for (int i = 0; i < property.photos.Count; i++)
+                    //{
+                    //    db.Pictures.Add(new Picture
+                    //    {
+                    //        userID = property.UserID,
+                    //        propertyID = property.PropertyID,
+                    //        picturePath = property.photos.ElementAt(i)
+                    //    });
+                    //}
+
+                    db.SaveChanges();
+
+                    isInserted.success = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                isInserted.ErrorMessage = ex.Message;
+            }
+
+            return isInserted;
+        }
+        public Dto_Bool UpdateProperty(Dto_Property property)
+        {
+            Dto_Bool isUpdated = new Dto_Bool();
+
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    var p = db.Properties.Where(c => c.userID == property.UserID
+                                               && c.PropertyID == property.PropertyID).SingleOrDefault();
+                    var a = db.Addresses.Where(c => c.AddressID == property.Address.AddressID).SingleOrDefault();      
+                    //var i = db.Pictures.Where(c => c.propertyID == p.PropertyID).SingleOrDefault();
+
+                    a.Line1 = property.Address?.AddressLine1;
+                    a.Line2 = property.Address?.AddressLine2;
+                    a.city = property.Address?.City;
+                    a.state = property.Address?.State;
+                    a.zip = string.IsNullOrWhiteSpace(property.Address.ZipCode)? 
+                        0 : Convert.ToInt32(property.Address.ZipCode);
+
+                    p.size = property.size;
+                    p.numBedrooms = property.numBeds;
+                    p.numBathrooms = property.numBaths;
+                    p.description = property.desc;
+                    p.isVacant = property.isVacant ? 1 : 0;
+                    p.hasPets = property.hasPets ? 1 : 0;
+
+                    //if (i == null) // Create a new pictureID
+                    //{
+                    //    var c = new Picture()
+                    //    {
+                    //        userID = property.UserID,
+                    //        propertyID = property.PropertyID,
+                    //        picturePath = property.photos.ElementAtOrDefault(0)
+                    //    };
+
+                    //    db.Pictures.Add(c);
+                    //    db.SaveChanges();
+                    //}
+                    //else // Modify URL of an already existing picture
+                    //{
+                    //    i.userID = property.UserID;
+                    //    i.propertyID = property.PropertyID;
+                    //    i.picturePath = property.photos.ElementAtOrDefault(0);
+                    //}
+
+                    db.SaveChanges();
+                }
+
+                isUpdated.success = true;
+            }
+            catch (Exception ex)
+            {
+                isUpdated.ErrorMessage = ex.Message;
+            }
+
+            return isUpdated;
+        }
+        public Dto_Bool DeleteProperty(Dto_Property property)
+        {
+            Dto_Bool isDeleted = new Dto_Bool();
+
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+                    // Remove pictures from Pictures table
+                    //db.Pictures.Remove(db.Pictures.Where(c => c.propertyID
+                    //                        == property.PropertyID).SingleOrDefault());
+                    //db.SaveChanges();
+
+                    // Remove property from Properties table
+                    db.Properties.Remove(db.Properties.Where(c => c.PropertyID
+                                            == property.PropertyID).SingleOrDefault());
+                    db.SaveChanges();
+
+                    // Remove address from Addresses table
+                    db.Addresses.Remove(db.Addresses.Where(c => c.propertyID
+                                            == property.PropertyID).SingleOrDefault());
+                    db.SaveChanges();  
+                }
+
+                isDeleted.success = true;
+            }
+            catch (Exception ex)
+            {
+                isDeleted.ErrorMessage = ex.Message;
+            }
+
+            return isDeleted;
+        }
+        public Dto_Bid InsertBid(Dto_Bid bid)
+        {
+            Dto_Bid insertedRec = new Dto_Bid();
+            DAL.Bid bidRec = new DAL.Bid();
+
+            try
+            {
+                using (UMaidEntities db = new UMaidEntities())
+                {
+
+                    bidRec.bidID = bid.BidID;
+                    bidRec.userID = bid.UserID;
+                    bidRec.listingID = bid.ListingID;
+                    bidRec.bidPrice = bid.BidPrice;
+                    bidRec.startTime = bid.StartTime;
+                    bid.BidExpires = bid.BidExpires;
+                    bid.IsValid = bid.IsValid;
+
+                    var newRec = db.Bids.Add(bidRec);
+                    db.SaveChanges();
+
+                    if (newRec != null)
+                    {
+                        insertedRec.BidID = newRec.bidID;
+                        insertedRec.ListingID = newRec.listingID;
+                        insertedRec.UserID = newRec.userID;
+                        insertedRec.StartTime = newRec.startTime;
+                        insertedRec.BidExpires = newRec.bidExpires;
+                        insertedRec.BidPrice = newRec.bidPrice;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                insertedRec.ErrorMessage = ex.Message;
+                insertedRec.Error = false;
+            }
+            return insertedRec;
+        }
+        public Dto_Bool UpdateBid(Dto_Bid bid)
+        {
+            Dto_Bool updateResult = new Dto_Bool();
+
+
+            Dto_Bid recToBeUpdated = new Dto_Bid();
+
+            using (UMaidEntities db = new UMaidEntities())
+            {
+                try
+                {
+                    var updatedRec = db.Bids.Find(bid.BidID);
+
+                    updatedRec.userID = bid.UserID;
+                    updatedRec.listingID = bid.ListingID;
+                    updatedRec.bidPrice = bid.BidPrice;
+                    updatedRec.startTime = bid.StartTime;
+                    updatedRec.bidExpires = bid.BidExpires;
+
+                    db.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    updateResult.ErrorMessage = ex.Message;
+                    updateResult.Error = false;
+                }
+            }
+            updateResult.success = true;
+            return updateResult;
+        }
+        public Dto_Bool DeleteBid(Dto_Bid bid)
+        {
+            Dto_Bool deletionResult = new Dto_Bool();
+
+            Dto_Bid deletionRec = new Dto_Bid();
+
+            using (UMaidEntities db = new UMaidEntities())
+            {
+                try
+                {
+                    var recordToBeDeleted = db.Bids.Find(bid.BidID);
+                    db.Bids.Remove(recordToBeDeleted);
+                    db.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    deletionResult.success = false;
+                    deletionResult.ErrorMessage = ex.Message;
+                    deletionResult.Error = false;
+                }
+            }
+
+            deletionResult.success = true;
+            return deletionResult;
+        }
+    }
+}

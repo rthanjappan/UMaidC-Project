@@ -1,0 +1,104 @@
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csprojResolveAssemblyReference.cache
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CoreCompileInputs.cache
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\UMaid_Service.dll.config
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\UMaid_Service.dll
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\UMaid_Service.pdb
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\DAL.dll
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\Model.dll
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\EntityFramework.dll
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\DAL.pdb
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\DAL.dll.config
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\Model.pdb
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\EntityFramework.xml
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\obj\Debug\UMaid_Service.dll
+D:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\obj\Debug\UMaid_Service.pdb
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\UMaid_Service.dll.config
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\UMaid_Service.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\UMaid_Service.pdb
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\DAL.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\EntityFramework.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\Model.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\DAL.pdb
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\DAL.dll.config
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\Model.pdb
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\Model.dll.config
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\EntityFramework.xml
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.xml
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csprojAssemblyReference.cache
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CoreCompileInputs.cache
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CopyComplete
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\obj\Debug\UMaid_Service.dll
+E:\UMaid\UMaidOct242019Rose\UMaid10-23-19Ryan\UMaid\UMaid_Service\obj\Debug\UMaid_Service.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\UMaid_Service.dll.config
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\UMaid_Service.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\UMaid_Service.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\DAL.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\EntityFramework.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\Model.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\DAL.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\DAL.dll.config
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\Model.pdb
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\Model.dll.config
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\EntityFramework.xml
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.xml
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csprojAssemblyReference.cache
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CoreCompileInputs.cache
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CopyComplete
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.dll
+E:\GTCSem5\AdvSysProjectHill\UMaid\UMaidOct242019Rose\UMaidOct262019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.pdb
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\UMaid_Service.dll.config
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\UMaid_Service.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\UMaid_Service.pdb
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\DAL.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\EntityFramework.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\Model.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\DAL.pdb
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\DAL.dll.config
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\Model.pdb
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\Model.dll.config
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\EntityFramework.xml
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.xml
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csprojAssemblyReference.cache
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CoreCompileInputs.cache
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CopyComplete
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.dll
+C:\Users\Maribel\Dropbox\School\Advanced Systems\UMaidLastVersion_10_31_2019\UMaidOct292019\UMaid\UMaid_Service\obj\Debug\UMaid_Service.pdb
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\UMaid_Service.dll.config
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\UMaid_Service.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\UMaid_Service.pdb
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\DAL.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\EntityFramework.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\Model.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\DAL.pdb
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\DAL.dll.config
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\Model.pdb
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\Model.dll.config
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\EntityFramework.xml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CopyComplete
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\obj\Debug\UMaid_Service.dll
+C:\Users\Ryan\Documents\GTC\CIST2393 - Advanced Systems Project\Projects\AdvSys\UMaid\UMaid_Service\obj\Debug\UMaid_Service.pdb
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\UMaid_Service.dll.config
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\UMaid_Service.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\UMaid_Service.pdb
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\DAL.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\EntityFramework.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\Model.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\DAL.pdb
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\DAL.dll.config
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\Model.pdb
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\Model.dll.config
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\EntityFramework.xml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\bin\EntityFramework.SqlServer.xml
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csprojAssemblyReference.cache
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CoreCompileInputs.cache
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\obj\Debug\UMaid_Service.csproj.CopyComplete
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\obj\Debug\UMaid_Service.dll
+E:\GTCSem5\AdvSysProjectHill\RoseUMaidNov92019Onwards\classmatesNov92019Onwards\UMaidLatestBuild_110919\UMaid\UMaid_Service\obj\Debug\UMaid_Service.pdb

@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_111206_asnModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AddressesTest">
+    <Key>
+      <PropertyRef Name="AddressID" />
+    </Key>
+    <Property Name="AddressID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="PropertyID" Type="int" />
+    <Property Name="Line1" Type="varchar" MaxLength="50" />
+    <Property Name="Line2" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="20" />
+    <Property Name="State" Type="varchar" MaxLength="2" />
+    <Property Name="Zip" Type="int" />
+    <Property Name="Latitude" Type="float" />
+    <Property Name="Longitude" Type="float" />
+  </EntityType>
+  <EntityType Name="BidsTest">
+    <Key>
+      <PropertyRef Name="BidID" />
+    </Key>
+    <Property Name="BidID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="ListingID" Type="int" Nullable="false" />
+    <Property Name="BidPrice" Type="float" Nullable="false" />
+    <Property Name="StartTime" Type="datetime" Nullable="false" />
+    <Property Name="BidExpires" Type="datetime" Nullable="false" />
+    <Property Name="IsAccepted" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CleaningLevelsTest">
+    <Key>
+      <PropertyRef Name="CleaningLevelID" />
+    </Key>
+    <Property Name="CleaningLevelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="ListingsTest">
+    <Key>
+      <PropertyRef Name="ListingID" />
+    </Key>
+    <Property Name="ListingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="PropertyID" Type="int" Nullable="false" />
+    <Property Name="ListingStartTime" Type="datetime" />
+    <Property Name="ListingExpiryTime" Type="datetime" />
+    <Property Name="CleaningLevelID" Type="int" />
+    <Property Name="AdditionalInfo" Type="varchar" MaxLength="400" />
+    <Property Name="IsLive" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PicturesTest">
+    <Key>
+      <PropertyRef Name="PictureID" />
+    </Key>
+    <Property Name="PictureID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="PropertyID" Type="int" />
+    <Property Name="PicturePath" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="ProfilesTest">
+    <Key>
+      <PropertyRef Name="ProfileID" />
+    </Key>
+    <Property Name="ProfileID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="PictureID" Type="int" />
+    <Property Name="AccountNumber" Type="int" />
+    <Property Name="AvgRating" Type="float" />
+    <Property Name="Bio" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="PropertiesTest">
+    <Key>
+      <PropertyRef Name="PropertyID" />
+    </Key>
+    <Property Name="PropertyID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="PriceLight" Type="float" />
+    <Property Name="PriceMedium" Type="float" />
+    <Property Name="PriceHeavy" Type="float" />
+    <Property Name="Latitude" Type="float" />
+    <Property Name="Longitude" Type="float" />
+    <Property Name="NumBedrooms" Type="int" />
+    <Property Name="NumBathrooms" Type="int" />
+    <Property Name="Size" Type="int" />
+    <Property Name="IsVacant" Type="int" />
+    <Property Name="HasPets" Type="int" />
+    <Property Name="Description" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="TransactionsTest">
+    <Key>
+      <PropertyRef Name="TransactionID" />
+    </Key>
+    <Property Name="TransactionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="ListingID" Type="int" Nullable="false" />
+    <Property Name="BidID" Type="int" Nullable="false" />
+    <Property Name="MaidRating" Type="float" />
+    <Property Name="CustomerRating" Type="float" />
+  </EntityType>
+  <EntityType Name="UserLoginsTest">
+    <Key>
+      <PropertyRef Name="LoginID" />
+    </Key>
+    <Property Name="LoginID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="LoginDate" Type="datetime" />
+    <Property Name="Lattitude" Type="float" />
+    <Property Name="Longitude" Type="float" />
+  </EntityType>
+  <EntityType Name="UsersTest">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserTypeID" Type="int" />
+    <Property Name="Email" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="FName" Type="varchar" MaxLength="50" />
+    <Property Name="LName" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="12" />
+    <Property Name="StreetName" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="PostalCode" Type="varchar" MaxLength="10" />
+    <Property Name="State" Type="varchar" MaxLength="2" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="Rating" Type="float" />
+    <Property Name="NumOfRatings" Type="int" />
+  </EntityType>
+  <EntityType Name="UserTypesTest">
+    <Key>
+      <PropertyRef Name="UserTypeID" />
+    </Key>
+    <Property Name="UserTypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserTypeDescription" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_BidsTransactions">
+    <End Role="BidsTest" Type="Self.BidsTest" Multiplicity="1" />
+    <End Role="TransactionsTest" Type="Self.TransactionsTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BidsTest">
+        <PropertyRef Name="BidID" />
+      </Principal>
+      <Dependent Role="TransactionsTest">
+        <PropertyRef Name="BidID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CleaningLevelsListings">
+    <End Role="CleaningLevelsTest" Type="Self.CleaningLevelsTest" Multiplicity="0..1" />
+    <End Role="ListingsTest" Type="Self.ListingsTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CleaningLevelsTest">
+        <PropertyRef Name="CleaningLevelID" />
+      </Principal>
+      <Dependent Role="ListingsTest">
+        <PropertyRef Name="CleaningLevelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ListingsBids">
+    <End Role="ListingsTest" Type="Self.ListingsTest" Multiplicity="1" />
+    <End Role="BidsTest" Type="Self.BidsTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ListingsTest">
+        <PropertyRef Name="ListingID" />
+      </Principal>
+      <Dependent Role="BidsTest">
+        <PropertyRef Name="ListingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ListingsTransactions">
+    <End Role="ListingsTest" Type="Self.ListingsTest" Multiplicity="1" />
+    <End Role="TransactionsTest" Type="Self.TransactionsTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ListingsTest">
+        <PropertyRef Name="ListingID" />
+      </Principal>
+      <Dependent Role="TransactionsTest">
+        <PropertyRef Name="ListingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PicturesProfiles">
+    <End Role="PicturesTest" Type="Self.PicturesTest" Multiplicity="0..1" />
+    <End Role="ProfilesTest" Type="Self.ProfilesTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PicturesTest">
+        <PropertyRef Name="PictureID" />
+      </Principal>
+      <Dependent Role="ProfilesTest">
+        <PropertyRef Name="PictureID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropertiesAddresses">
+    <End Role="PropertiesTest" Type="Self.PropertiesTest" Multiplicity="0..1" />
+    <End Role="AddressesTest" Type="Self.AddressesTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PropertiesTest">
+        <PropertyRef Name="PropertyID" />
+      </Principal>
+      <Dependent Role="AddressesTest">
+        <PropertyRef Name="PropertyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropertiesListings">
+    <End Role="PropertiesTest" Type="Self.PropertiesTest" Multiplicity="1" />
+    <End Role="ListingsTest" Type="Self.ListingsTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PropertiesTest">
+        <PropertyRef Name="PropertyID" />
+      </Principal>
+      <Dependent Role="ListingsTest">
+        <PropertyRef Name="PropertyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropertiesPictures">
+    <End Role="PropertiesTest" Type="Self.PropertiesTest" Multiplicity="0..1" />
+    <End Role="PicturesTest" Type="Self.PicturesTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PropertiesTest">
+        <PropertyRef Name="PropertyID" />
+      </Principal>
+      <Dependent Role="PicturesTest">
+        <PropertyRef Name="PropertyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersAddresses">
+    <End Role="UsersTest" Type="Self.UsersTest" Multiplicity="1" />
+    <End Role="AddressesTest" Type="Self.AddressesTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersTest">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="AddressesTest">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersBids">
+    <End Role="UsersTest" Type="Self.UsersTest" Multiplicity="1" />
+    <End Role="BidsTest" Type="Self.BidsTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersTest">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="BidsTest">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersListings">
+    <End Role="UsersTest" Type="Self.UsersTest" Multiplicity="1" />
+    <End Role="ListingsTest" Type="Self.ListingsTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersTest">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="ListingsTest">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersPictures">
+    <End Role="UsersTest" Type="Self.UsersTest" Multiplicity="1" />
+    <End Role="PicturesTest" Type="Self.PicturesTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersTest">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="PicturesTest">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersProfiles">
+    <End Role="UsersTest" Type="Self.UsersTest" Multiplicity="1" />
+    <End Role="ProfilesTest" Type="Self.ProfilesTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersTest">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="ProfilesTest">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersProperties">
+    <End Role="UsersTest" Type="Self.UsersTest" Multiplicity="1" />
+    <End Role="PropertiesTest" Type="Self.PropertiesTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersTest">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="PropertiesTest">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersTransactions">
+    <End Role="UsersTest" Type="Self.UsersTest" Multiplicity="1" />
+    <End Role="TransactionsTest" Type="Self.TransactionsTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersTest">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TransactionsTest">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersUserLogins">
+    <End Role="UsersTest" Type="Self.UsersTest" Multiplicity="1" />
+    <End Role="UserLoginsTest" Type="Self.UserLoginsTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersTest">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="UserLoginsTest">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserTypesUsers">
+    <End Role="UserTypesTest" Type="Self.UserTypesTest" Multiplicity="0..1" />
+    <End Role="UsersTest" Type="Self.UsersTest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserTypesTest">
+        <PropertyRef Name="UserTypeID" />
+      </Principal>
+      <Dependent Role="UsersTest">
+        <PropertyRef Name="UserTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_111206_asnModelStoreContainer">
+    <EntitySet Name="AddressesTest" EntityType="Self.AddressesTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BidsTest" EntityType="Self.BidsTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CleaningLevelsTest" EntityType="Self.CleaningLevelsTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ListingsTest" EntityType="Self.ListingsTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PicturesTest" EntityType="Self.PicturesTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProfilesTest" EntityType="Self.ProfilesTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropertiesTest" EntityType="Self.PropertiesTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TransactionsTest" EntityType="Self.TransactionsTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserLoginsTest" EntityType="Self.UserLoginsTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsersTest" EntityType="Self.UsersTest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserTypesTest" EntityType="Self.UserTypesTest" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_BidsTransactions" Association="Self.FK_BidsTransactions">
+      <End Role="BidsTest" EntitySet="BidsTest" />
+      <End Role="TransactionsTest" EntitySet="TransactionsTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CleaningLevelsListings" Association="Self.FK_CleaningLevelsListings">
+      <End Role="CleaningLevelsTest" EntitySet="CleaningLevelsTest" />
+      <End Role="ListingsTest" EntitySet="ListingsTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ListingsBids" Association="Self.FK_ListingsBids">
+      <End Role="ListingsTest" EntitySet="ListingsTest" />
+      <End Role="BidsTest" EntitySet="BidsTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ListingsTransactions" Association="Self.FK_ListingsTransactions">
+      <End Role="ListingsTest" EntitySet="ListingsTest" />
+      <End Role="TransactionsTest" EntitySet="TransactionsTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PicturesProfiles" Association="Self.FK_PicturesProfiles">
+      <End Role="PicturesTest" EntitySet="PicturesTest" />
+      <End Role="ProfilesTest" EntitySet="ProfilesTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropertiesAddresses" Association="Self.FK_PropertiesAddresses">
+      <End Role="PropertiesTest" EntitySet="PropertiesTest" />
+      <End Role="AddressesTest" EntitySet="AddressesTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropertiesListings" Association="Self.FK_PropertiesListings">
+      <End Role="PropertiesTest" EntitySet="PropertiesTest" />
+      <End Role="ListingsTest" EntitySet="ListingsTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropertiesPictures" Association="Self.FK_PropertiesPictures">
+      <End Role="PropertiesTest" EntitySet="PropertiesTest" />
+      <End Role="PicturesTest" EntitySet="PicturesTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersAddresses" Association="Self.FK_UsersAddresses">
+      <End Role="UsersTest" EntitySet="UsersTest" />
+      <End Role="AddressesTest" EntitySet="AddressesTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersBids" Association="Self.FK_UsersBids">
+      <End Role="UsersTest" EntitySet="UsersTest" />
+      <End Role="BidsTest" EntitySet="BidsTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersListings" Association="Self.FK_UsersListings">
+      <End Role="UsersTest" EntitySet="UsersTest" />
+      <End Role="ListingsTest" EntitySet="ListingsTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersPictures" Association="Self.FK_UsersPictures">
+      <End Role="UsersTest" EntitySet="UsersTest" />
+      <End Role="PicturesTest" EntitySet="PicturesTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersProfiles" Association="Self.FK_UsersProfiles">
+      <End Role="UsersTest" EntitySet="UsersTest" />
+      <End Role="ProfilesTest" EntitySet="ProfilesTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersProperties" Association="Self.FK_UsersProperties">
+      <End Role="UsersTest" EntitySet="UsersTest" />
+      <End Role="PropertiesTest" EntitySet="PropertiesTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersTransactions" Association="Self.FK_UsersTransactions">
+      <End Role="UsersTest" EntitySet="UsersTest" />
+      <End Role="TransactionsTest" EntitySet="TransactionsTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersUserLogins" Association="Self.FK_UsersUserLogins">
+      <End Role="UsersTest" EntitySet="UsersTest" />
+      <End Role="UserLoginsTest" EntitySet="UserLoginsTest" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserTypesUsers" Association="Self.FK_UserTypesUsers">
+      <End Role="UserTypesTest" EntitySet="UserTypesTest" />
+      <End Role="UsersTest" EntitySet="UsersTest" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

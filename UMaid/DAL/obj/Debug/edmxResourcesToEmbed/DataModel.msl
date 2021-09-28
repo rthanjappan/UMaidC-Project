@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UMaidModelStoreContainer" CdmEntityContainer="UMaidEntities">
+    <EntitySetMapping Name="Addresses">
+      <EntityTypeMapping TypeName="UMaidModel.Address">
+        <MappingFragment StoreEntitySet="Addresses">
+          <ScalarProperty Name="AddressID" ColumnName="AddressID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="propertyID" ColumnName="propertyID" />
+          <ScalarProperty Name="line1" ColumnName="line1" />
+          <ScalarProperty Name="line2" ColumnName="line2" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="zip" ColumnName="zip" />
+          <ScalarProperty Name="country" ColumnName="country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CleaningLevels">
+      <EntityTypeMapping TypeName="UMaidModel.CleaningLevel">
+        <MappingFragment StoreEntitySet="CleaningLevels">
+          <ScalarProperty Name="CleaningLevelID" ColumnName="CleaningLevelID" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Listings">
+      <EntityTypeMapping TypeName="UMaidModel.Listing">
+        <MappingFragment StoreEntitySet="Listing">
+          <ScalarProperty Name="listingID" ColumnName="listingID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="propertyID" ColumnName="propertyID" />
+          <ScalarProperty Name="listingStartTime" ColumnName="listingStartTime" />
+          <ScalarProperty Name="listingExpiryTime" ColumnName="listingExpiryTime" />
+          <ScalarProperty Name="cleaningLevelID" ColumnName="cleaningLevelID" />
+          <ScalarProperty Name="additionalInfo" ColumnName="additionalInfo" />
+          <ScalarProperty Name="isLive" ColumnName="isLive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Persons">
+      <EntityTypeMapping TypeName="UMaidModel.Person">
+        <MappingFragment StoreEntitySet="Persons">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="passWord" ColumnName="passWord" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Properties">
+      <EntityTypeMapping TypeName="UMaidModel.Property">
+        <MappingFragment StoreEntitySet="Properties">
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="hasPets" ColumnName="hasPets" />
+          <ScalarProperty Name="isVacant" ColumnName="isVacant" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="numBathrooms" ColumnName="numBathrooms" />
+          <ScalarProperty Name="numBedrooms" ColumnName="numBedrooms" />
+          <ScalarProperty Name="PropertyID" ColumnName="PropertyID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="priceLight" ColumnName="priceLight" />
+          <ScalarProperty Name="priceMedium" ColumnName="priceMedium" />
+          <ScalarProperty Name="priceHeavy" ColumnName="priceHeavy" />
+          <ScalarProperty Name="AddressID" ColumnName="AddressID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bids">
+      <EntityTypeMapping TypeName="UMaidModel.Bid">
+        <MappingFragment StoreEntitySet="Bid">
+          <ScalarProperty Name="isAccepted" ColumnName="isAccepted" />
+          <ScalarProperty Name="bidExpires" ColumnName="bidExpires" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="bidPrice" ColumnName="bidPrice" />
+          <ScalarProperty Name="listingID" ColumnName="listingID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="bidID" ColumnName="bidID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerProfiles">
+      <EntityTypeMapping TypeName="UMaidModel.CustomerProfile">
+        <MappingFragment StoreEntitySet="CustomerProfile">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaidProfiles">
+      <EntityTypeMapping TypeName="UMaidModel.MaidProfile">
+        <MappingFragment StoreEntitySet="MaidProfile">
+          <ScalarProperty Name="bio" ColumnName="bio" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profiles">
+      <EntityTypeMapping TypeName="UMaidModel.Profile">
+        <MappingFragment StoreEntitySet="Profile">
+          <ScalarProperty Name="aveRating" ColumnName="aveRating" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionTables">
+      <EntityTypeMapping TypeName="UMaidModel.TransactionTable">
+        <MappingFragment StoreEntitySet="TransactionTable">
+          <ScalarProperty Name="customerRating" ColumnName="customerRating" />
+          <ScalarProperty Name="maidRating" ColumnName="maidRating" />
+          <ScalarProperty Name="bidID" ColumnName="bidID" />
+          <ScalarProperty Name="listingID" ColumnName="listingID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="transactionID" ColumnName="transactionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PropertTypes">
+      <EntityTypeMapping TypeName="UMaidModel.PropertType">
+        <MappingFragment StoreEntitySet="PropertType">
+          <ScalarProperty Name="PropertyDescription" ColumnName="PropertyDescription" />
+          <ScalarProperty Name="PopertyID" ColumnName="PopertyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Properties1">
+      <EntityTypeMapping TypeName="UMaidModel.Property1">
+        <MappingFragment StoreEntitySet="Property">
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="lattitude" ColumnName="lattitude" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="PrpertyState" ColumnName="PrpertyState" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="PopertyTypeID" ColumnName="PopertyTypeID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="PopertyID" ColumnName="PopertyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLogins">
+      <EntityTypeMapping TypeName="UMaidModel.UserLogin">
+        <MappingFragment StoreEntitySet="UserLogin">
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="lattitude" ColumnName="lattitude" />
+          <ScalarProperty Name="LoginDate" ColumnName="LoginDate" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="LoginID" ColumnName="LoginID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="UMaidModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Pet" ColumnName="Pet" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="StreetName" ColumnName="StreetName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTypeIDs">
+      <EntityTypeMapping TypeName="UMaidModel.UserTypeID">
+        <MappingFragment StoreEntitySet="UserTypeID">
+          <ScalarProperty Name="UserTypeDescription" ColumnName="UserTypeDescription" />
+          <ScalarProperty Name="UserTypeID1" ColumnName="UserTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

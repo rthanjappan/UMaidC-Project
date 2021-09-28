@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:59811/Service1.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:59811/Service1.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Device.Location" />
+  <xs:complexType name="Dto_User">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NumOfRatings" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Pet" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PhoneNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Rating" nillable="true" type="xs:double" />
+          <xs:element minOccurs="0" name="StartDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StreetName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserID" type="xs:int" />
+          <xs:element minOccurs="0" name="UserTypeID" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_User" nillable="true" type="tns:Dto_User" />
+  <xs:complexType name="Dto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Error" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Dto" nillable="true" type="tns:Dto" />
+  <xs:complexType name="Dto_UserType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="UserTypeDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserTypeID" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_UserType" nillable="true" type="tns:Dto_UserType" />
+  <xs:complexType name="Dto_Bool">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="success" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_Bool" nillable="true" type="tns:Dto_Bool" />
+  <xs:complexType name="ArrayOfDto_User">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Dto_User" nillable="true" type="tns:Dto_User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDto_User" nillable="true" type="tns:ArrayOfDto_User" />
+  <xs:complexType name="Dto_Profile">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AccountNumber" type="xs:int" />
+          <xs:element minOccurs="0" name="AvgRating" type="xs:double" />
+          <xs:element minOccurs="0" name="Bio" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PictureID" type="xs:int" />
+          <xs:element minOccurs="0" name="PicturePath" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ProfileID" type="xs:int" />
+          <xs:element minOccurs="0" name="UserID" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_Profile" nillable="true" type="tns:Dto_Profile" />
+  <xs:complexType name="ArrayOfDto_Profile">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Dto_Profile" nillable="true" type="tns:Dto_Profile" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDto_Profile" nillable="true" type="tns:ArrayOfDto_Profile" />
+  <xs:complexType name="Dto_Picture">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="PictureID" type="xs:int" />
+          <xs:element minOccurs="0" name="PicturePath" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PropertyID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="UserID" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_Picture" nillable="true" type="tns:Dto_Picture" />
+  <xs:complexType name="ArrayOfDto_Picture">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Dto_Picture" nillable="true" type="tns:Dto_Picture" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDto_Picture" nillable="true" type="tns:ArrayOfDto_Picture" />
+  <xs:complexType name="ArrayOfDto_Property">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Dto_Property" nillable="true" type="tns:Dto_Property" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDto_Property" nillable="true" type="tns:ArrayOfDto_Property" />
+  <xs:complexType name="Dto_Property">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Address" nillable="true" type="tns:Dto_Address" />
+          <xs:element minOccurs="0" name="PropertyID" type="xs:int" />
+          <xs:element minOccurs="0" name="UserID" type="xs:int" />
+          <xs:element minOccurs="0" name="desc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="hasPets" type="xs:boolean" />
+          <xs:element minOccurs="0" name="isVacant" type="xs:boolean" />
+          <xs:element minOccurs="0" name="numBaths" type="xs:int" />
+          <xs:element minOccurs="0" name="numBeds" type="xs:int" />
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="photos" nillable="true" type="q1:ArrayOfstring" />
+          <xs:element minOccurs="0" name="priceHeavy" type="xs:double" />
+          <xs:element minOccurs="0" name="priceLight" type="xs:double" />
+          <xs:element minOccurs="0" name="priceMedium" type="xs:double" />
+          <xs:element minOccurs="0" name="size" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_Property" nillable="true" type="tns:Dto_Property" />
+  <xs:complexType name="Dto_Address">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AddressID" type="xs:int" />
+          <xs:element minOccurs="0" name="AddressLine1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AddressLine2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ZipCode" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_Address" nillable="true" type="tns:Dto_Address" />
+  <xs:complexType name="ArrayOfDto_Listing">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Dto_Listing" nillable="true" type="tns:Dto_Listing" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDto_Listing" nillable="true" type="tns:ArrayOfDto_Listing" />
+  <xs:complexType name="Dto_Listing">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="additionalInfo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cleaningLevelID" type="xs:int" />
+          <xs:element minOccurs="0" name="isLive" type="xs:boolean" />
+          <xs:element minOccurs="0" name="listingExpiryTime" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="listingID" type="xs:int" />
+          <xs:element minOccurs="0" name="listingStartTime" type="xs:dateTime" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.Device.Location" minOccurs="0" name="location" nillable="true" type="q2:GeoCoordinate" />
+          <xs:element minOccurs="0" name="propertyID" type="xs:int" />
+          <xs:element minOccurs="0" name="userID" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_Listing" nillable="true" type="tns:Dto_Listing" />
+  <xs:complexType name="ArrayOfDto_Transaction">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Dto_Transaction" nillable="true" type="tns:Dto_Transaction" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDto_Transaction" nillable="true" type="tns:ArrayOfDto_Transaction" />
+  <xs:complexType name="Dto_Transaction">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="bidID" type="xs:int" />
+          <xs:element minOccurs="0" name="customerRating" type="xs:double" />
+          <xs:element minOccurs="0" name="listingID" type="xs:int" />
+          <xs:element minOccurs="0" name="maidRating" type="xs:double" />
+          <xs:element minOccurs="0" name="transactionID" type="xs:int" />
+          <xs:element minOccurs="0" name="userID" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_Transaction" nillable="true" type="tns:Dto_Transaction" />
+  <xs:complexType name="Dto_Bid">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Dto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BidExpires" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="BidID" type="xs:int" />
+          <xs:element minOccurs="0" name="BidPrice" type="xs:double" />
+          <xs:element minOccurs="0" name="IsAccepted" type="xs:int" />
+          <xs:element minOccurs="0" name="IsValid" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ListingID" type="xs:int" />
+          <xs:element minOccurs="0" name="StartTime" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="UserID" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dto_Bid" nillable="true" type="tns:Dto_Bid" />
+  <xs:complexType name="ArrayOfDto_Bid">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Dto_Bid" nillable="true" type="tns:Dto_Bid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDto_Bid" nillable="true" type="tns:ArrayOfDto_Bid" />
+</xs:schema>

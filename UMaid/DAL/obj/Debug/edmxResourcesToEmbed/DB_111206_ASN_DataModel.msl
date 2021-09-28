@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_111206_asnModelStoreContainer" CdmEntityContainer="DB_111206_asnEntities">
+    <EntitySetMapping Name="Addresses">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Address">
+        <MappingFragment StoreEntitySet="Addresses">
+          <ScalarProperty Name="AddressID" ColumnName="AddressID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="propertyID" ColumnName="propertyID" />
+          <ScalarProperty Name="line1" ColumnName="line1" />
+          <ScalarProperty Name="line2" ColumnName="line2" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="zip" ColumnName="zip" />
+          <ScalarProperty Name="country" ColumnName="country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bids">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Bid">
+        <MappingFragment StoreEntitySet="Bid">
+          <ScalarProperty Name="bidID" ColumnName="bidID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="listingID" ColumnName="listingID" />
+          <ScalarProperty Name="bidPrice" ColumnName="bidPrice" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="bidExpires" ColumnName="bidExpires" />
+          <ScalarProperty Name="isAccepted" ColumnName="isAccepted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CleaningLevels">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.CleaningLevel">
+        <MappingFragment StoreEntitySet="CleaningLevels">
+          <ScalarProperty Name="CleaningLevelID" ColumnName="CleaningLevelID" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerProfiles">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.CustomerProfile">
+        <MappingFragment StoreEntitySet="CustomerProfile">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Listings">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Listing">
+        <MappingFragment StoreEntitySet="Listing">
+          <ScalarProperty Name="listingID" ColumnName="listingID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="propertyID" ColumnName="propertyID" />
+          <ScalarProperty Name="listingStartTime" ColumnName="listingStartTime" />
+          <ScalarProperty Name="listingExpiryTime" ColumnName="listingExpiryTime" />
+          <ScalarProperty Name="cleaningLevelID" ColumnName="cleaningLevelID" />
+          <ScalarProperty Name="additionalInfo" ColumnName="additionalInfo" />
+          <ScalarProperty Name="isLive" ColumnName="isLive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaidProfiles">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.MaidProfile">
+        <MappingFragment StoreEntitySet="MaidProfile">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="bio" ColumnName="bio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Members">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Member">
+        <MappingFragment StoreEntitySet="Members">
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Posts">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Post">
+        <MappingFragment StoreEntitySet="Posts">
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="TopicID" ColumnName="TopicID" />
+          <ScalarProperty Name="ResponseToPostID" ColumnName="ResponseToPostID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="PostDateTime" ColumnName="PostDateTime" />
+          <ScalarProperty Name="PostComment" ColumnName="PostComment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profiles">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Profile">
+        <MappingFragment StoreEntitySet="Profile">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="PicturePath" ColumnName="PicturePath" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="aveRating" ColumnName="aveRating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projects">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Project">
+        <MappingFragment StoreEntitySet="Projects">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Properties">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Property">
+        <MappingFragment StoreEntitySet="Properties">
+          <ScalarProperty Name="PropertyID" ColumnName="PropertyID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="priceLight" ColumnName="priceLight" />
+          <ScalarProperty Name="priceMedium" ColumnName="priceMedium" />
+          <ScalarProperty Name="priceHeavy" ColumnName="priceHeavy" />
+          <ScalarProperty Name="AddressID" ColumnName="AddressID" />
+          <ScalarProperty Name="numBedrooms" ColumnName="numBedrooms" />
+          <ScalarProperty Name="numBathrooms" ColumnName="numBathrooms" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="isVacant" ColumnName="isVacant" />
+          <ScalarProperty Name="hasPets" ColumnName="hasPets" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TopicCategories">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.TopicCategory">
+        <MappingFragment StoreEntitySet="TopicCategory">
+          <ScalarProperty Name="TopicCategoryID" ColumnName="TopicCategoryID" />
+          <ScalarProperty Name="TopicCategoryTitle" ColumnName="TopicCategoryTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Topics">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Topic">
+        <MappingFragment StoreEntitySet="Topics">
+          <ScalarProperty Name="TopicID" ColumnName="TopicID" />
+          <ScalarProperty Name="TopicTitle" ColumnName="TopicTitle" />
+          <ScalarProperty Name="TopicCategoryID" ColumnName="TopicCategoryID" />
+          <ScalarProperty Name="AuthorMemberID" ColumnName="AuthorMemberID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionTables">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.TransactionTable">
+        <MappingFragment StoreEntitySet="TransactionTable">
+          <ScalarProperty Name="transactionID" ColumnName="transactionID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="listingID" ColumnName="listingID" />
+          <ScalarProperty Name="bidID" ColumnName="bidID" />
+          <ScalarProperty Name="maidRating" ColumnName="maidRating" />
+          <ScalarProperty Name="customerRating" ColumnName="customerRating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="passWord" ColumnName="passWord" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLogins">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.UserLogin">
+        <MappingFragment StoreEntitySet="UserLogin">
+          <ScalarProperty Name="LoginID" ColumnName="LoginID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="LoginDate" ColumnName="LoginDate" />
+          <ScalarProperty Name="lattitude" ColumnName="lattitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users1">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.User1">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StreetName" ColumnName="StreetName" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Pet" ColumnName="Pet" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTypeIDs">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.UserTypeID">
+        <MappingFragment StoreEntitySet="UserTypeID">
+          <ScalarProperty Name="UserTypeID1" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserTypeDescription" ColumnName="UserTypeDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="DB_111206_asnModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="DB_111206_asnModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="DB_111206_asnModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="DB_111206_asnModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_111206_asnModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="DB_111206_asnModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_111206_asnModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="DB_111206_asnModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="DB_111206_asnModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="Pictures">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.Picture">
+        <MappingFragment StoreEntitySet="Pictures">
+          <ScalarProperty Name="picturePath" ColumnName="picturePath" />
+          <ScalarProperty Name="propertyID" ColumnName="propertyID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

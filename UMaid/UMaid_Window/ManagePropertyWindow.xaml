@@ -1,0 +1,258 @@
+﻿<Window x:Class="UMaid_Window.ManagePropertyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UMaid_Window"
+        mc:Ignorable="d"
+        Title="Manage Property" Height="700" Width="700">
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2.5*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0"
+                    Grid.Column="0"
+                    Orientation="Vertical"             
+                    x:Name="spProperties">
+            <TextBlock Text="List of Properties"
+                               Margin="10,0,10,0"
+                               HorizontalAlignment="Center"
+                               FontSize="13"/>
+            <ComboBox x:Name="cbProperties"
+                     FontSize="13" 
+                     HorizontalAlignment="Center" 
+                     Width="160"
+                     DisplayMemberPath="Address.AddressLine2"
+                     SelectionChanged="CbProperties_SelectionChanged"
+                     DropDownClosed="CbProperties_DropDownClosed">
+            </ComboBox>
+            <!-- PropertyID and UserID for debugging purposes-->
+            <!--<TextBlock Text="(Debug Info)"
+                       HorizontalAlignment="Center"
+                       Margin="20"/>
+            <TextBlock Text="PropertyID:"
+                       Margin="10,0,10,0"
+                       HorizontalAlignment="Left"
+                       FontSize="13">
+            </TextBlock>-->
+            <!--<TextBlock x:Name="tbPropertyID"
+                       Text="{Binding Property.PropertyID, UpdateSourceTrigger=Explicit}"
+                       Margin="10,0,10,0"
+                       HorizontalAlignment="Left"
+                       FontSize="13"/>
+            <TextBlock Text="UserID:"
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left"
+                       FontSize="13"/>
+            <TextBlock x:Name="tbUserID"
+                       Text="{Binding Property.UserID,UpdateSourceTrigger=Explicit}"
+                       Margin="10,0,10,0"
+                       HorizontalAlignment="Left"
+                       FontSize="13"/>-->
+        </StackPanel>
+        <ListView Grid.Row="0"
+                 Grid.Column="1"
+                 x:Name="lbPropertyPics"
+                 VerticalAlignment="Center"
+                 Margin="10"
+                 Height="180"
+                 Width="400">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel HorizontalAlignment="Center">
+                        <Image Source="{Binding}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Row="1"
+                    Grid.Column="0"
+                    Orientation="Vertical" 
+                    HorizontalAlignment="Left"
+                    x:Name="spAddress">
+            <TextBlock Text="Address Line 1"
+                       Margin="10,20,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <TextBlock Text="Address Line 2" 
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <TextBlock Text="City" 
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <TextBlock Text="State" 
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <TextBlock Text="Zip" 
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <TextBlock Text="Size" 
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <TextBlock Text="Photos (URL)" 
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1"
+                    Grid.Column="0"
+                    Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    x:Name="spPicButtons">
+            <Button x:Name="btnAddPic"
+                    Content="+"
+                    Click="BtnAddPictures_Click"
+                    FontSize="13"
+                    HorizontalAlignment="Center"
+                    Margin="50,155,0,0"
+                    Height="20"
+                    Width="20"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1"
+                    Grid.Column="1"
+                    Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    Height="Auto"
+                    Width="Auto"
+                    x:Name="spAddressInfo">
+            <TextBox x:Name="tbAddress1" 
+                     Margin="10,20,10,0"
+                     FontSize="13" 
+                     HorizontalAlignment="Left"
+                     Width="450" />
+            <TextBox x:Name="tbAddress2" 
+                     Margin="10,5,10,0"
+                     FontSize="13" 
+                     HorizontalAlignment="Left"
+                     Width="450" />
+            <TextBox x:Name="tbCity"
+                     Margin="10,5,10,0"
+                     FontSize="13"
+                     HorizontalAlignment="Left" 
+                     Width="450" />
+            <TextBox x:Name="tbState"
+                     Margin="10,5,10,0"
+                     FontSize="13" 
+                     HorizontalAlignment="Left"
+                     Width="450" />
+            <TextBox x:Name="tbZip"
+                     Margin="10,5,10,0"
+                     FontSize="13" 
+                     HorizontalAlignment="Left"
+                     Width="450" />
+            <TextBox x:Name="tbSize"
+                     Margin="10,0,5,0"
+                     FontSize="13" 
+                     HorizontalAlignment="Left"
+                     Width="450"/>
+            <TextBox x:Name="tbPic"
+                     Margin="10,0,5,0"
+                     FontSize="13" 
+                     HorizontalAlignment="Left"
+                     Width="450"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2"
+                    Grid.Column="1"
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    x:Name="spPropertyInfo">
+            <TextBlock Text="Number of Bedrooms" 
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <TextBox x:Name="tbBedrooms"
+                     FontSize="12" 
+                     HorizontalAlignment="Center"
+                     Height="20"
+                     Width="30"/>
+            <TextBlock Text="Number of Bathrooms"                  
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <TextBox x:Name="tbBathrooms"
+                     FontSize="11" 
+                     HorizontalAlignment="Center"
+                     Height="20"
+                     Width="30"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3"
+                    Grid.Column="1"
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    x:Name="spVacancyRadioButtons">
+            <TextBlock Text="Vacancy Status" 
+                       Margin="10,5,10,0"
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <RadioButton x:Name="rbOccupied" GroupName="Vacancy" Margin="10,0,10,0" VerticalAlignment="Center" Content="Occupied" IsChecked="False"/>
+            <RadioButton x:Name="rbVacant" GroupName="Vacancy" Margin="10,0,10,0" VerticalAlignment="Center" Content="Vacant" IsChecked="False"/>
+        </StackPanel>
+        <StackPanel Grid.Row="4"
+                    Grid.Column="1"
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    x:Name="spPetsRadioButtons">
+            <TextBlock Text="Pet Status" 
+                       Margin="10,5,10,0"   
+                       HorizontalAlignment="Left" 
+                       FontSize="13"/>
+            <RadioButton x:Name="rbPets" GroupName="Pets" Margin="10,0,10,0" VerticalAlignment="Center" Content="Pet(s)" IsChecked="False"/>
+            <RadioButton x:Name="rbNoPets" GroupName="Pets" Margin="10,0,10,0" VerticalAlignment="Center" Content="No Pet(s)" IsChecked="False"/>
+        </StackPanel>
+        <StackPanel Grid.Row="5"
+                    Grid.Column="1"
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    x:Name="spAddInfo">
+            <TextBlock Text="Additional Info" 
+                       Margin="10,0,10,0"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Center"
+                       FontSize="13"/>
+            <TextBox x:Name="tbAddInfo"
+                     FontSize="11" 
+                     HorizontalAlignment="Center" 
+                     Height="Auto"
+                     Width="300"
+                     TextWrapping="Wrap"/>
+        </StackPanel>
+        <StackPanel Grid.Row="5"
+                    Grid.Column="0"
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    x:Name="spClear">
+            <Button x:Name="btnClear" Margin="10,0,10,0" Click="BtnClear_Click" Content="Clear" Height="30" Width="90"/>
+        </StackPanel>
+        <StackPanel Grid.Row="6"
+                    Grid.Column="0"
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    x:Name="spClose">
+            <Button x:Name="btnClose" Margin="10,0,10,0" Click="BtnClose_Click" Content="Close" Height="30" Width="90"/>
+        </StackPanel>
+        <StackPanel Grid.Row="6"
+                    Grid.Column="1"
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    x:Name="spButtons">
+            <Button x:Name="btnAddProperty" Margin="20" Click="BtnAddProperty_Click" Content="Add Property" Height="30" Width="90"/>
+            <Button x:Name="btnEditProperty" Margin="20" Click="BtnEditProperty_Click" Content="Edit Property" Height="30" Width="90"/>
+            <Button x:Name="btnDeleteProperty" Margin="20" Click="BtnDeleteProperty_Click" Content="Delete Property" Height="30" Width="90"/>
+        </StackPanel>
+    </Grid>
+</Window>

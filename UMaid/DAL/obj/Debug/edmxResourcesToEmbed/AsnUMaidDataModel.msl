@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_111206_asnModelStoreContainer" CdmEntityContainer="AsnUmaidEntities">
+    <EntitySetMapping Name="AddressesTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.AddressesTest">
+        <MappingFragment StoreEntitySet="AddressesTest">
+          <ScalarProperty Name="AddressID" ColumnName="AddressID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="PropertyID" ColumnName="PropertyID" />
+          <ScalarProperty Name="Line1" ColumnName="Line1" />
+          <ScalarProperty Name="Line2" ColumnName="Line2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BidsTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.BidsTest">
+        <MappingFragment StoreEntitySet="BidsTest">
+          <ScalarProperty Name="BidID" ColumnName="BidID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ListingID" ColumnName="ListingID" />
+          <ScalarProperty Name="BidPrice" ColumnName="BidPrice" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="BidExpires" ColumnName="BidExpires" />
+          <ScalarProperty Name="IsAccepted" ColumnName="IsAccepted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CleaningLevelsTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.CleaningLevelsTest">
+        <MappingFragment StoreEntitySet="CleaningLevelsTest">
+          <ScalarProperty Name="CleaningLevelID" ColumnName="CleaningLevelID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListingsTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.ListingsTest">
+        <MappingFragment StoreEntitySet="ListingsTest">
+          <ScalarProperty Name="ListingID" ColumnName="ListingID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="PropertyID" ColumnName="PropertyID" />
+          <ScalarProperty Name="ListingStartTime" ColumnName="ListingStartTime" />
+          <ScalarProperty Name="ListingExpiryTime" ColumnName="ListingExpiryTime" />
+          <ScalarProperty Name="CleaningLevelID" ColumnName="CleaningLevelID" />
+          <ScalarProperty Name="AdditionalInfo" ColumnName="AdditionalInfo" />
+          <ScalarProperty Name="IsLive" ColumnName="IsLive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PicturesTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.PicturesTest">
+        <MappingFragment StoreEntitySet="PicturesTest">
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="PropertyID" ColumnName="PropertyID" />
+          <ScalarProperty Name="PicturePath" ColumnName="PicturePath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProfilesTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.ProfilesTest">
+        <MappingFragment StoreEntitySet="ProfilesTest">
+          <ScalarProperty Name="ProfileID" ColumnName="ProfileID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="AvgRating" ColumnName="AvgRating" />
+          <ScalarProperty Name="Bio" ColumnName="Bio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PropertiesTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.PropertiesTest">
+        <MappingFragment StoreEntitySet="PropertiesTest">
+          <ScalarProperty Name="PropertyID" ColumnName="PropertyID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="PriceLight" ColumnName="PriceLight" />
+          <ScalarProperty Name="PriceMedium" ColumnName="PriceMedium" />
+          <ScalarProperty Name="PriceHeavy" ColumnName="PriceHeavy" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="NumBedrooms" ColumnName="NumBedrooms" />
+          <ScalarProperty Name="NumBathrooms" ColumnName="NumBathrooms" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="IsVacant" ColumnName="IsVacant" />
+          <ScalarProperty Name="HasPets" ColumnName="HasPets" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionsTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.TransactionsTest">
+        <MappingFragment StoreEntitySet="TransactionsTest">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ListingID" ColumnName="ListingID" />
+          <ScalarProperty Name="BidID" ColumnName="BidID" />
+          <ScalarProperty Name="MaidRating" ColumnName="MaidRating" />
+          <ScalarProperty Name="CustomerRating" ColumnName="CustomerRating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLoginsTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.UserLoginsTest">
+        <MappingFragment StoreEntitySet="UserLoginsTest">
+          <ScalarProperty Name="LoginID" ColumnName="LoginID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="LoginDate" ColumnName="LoginDate" />
+          <ScalarProperty Name="Lattitude" ColumnName="Lattitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsersTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.UsersTest">
+        <MappingFragment StoreEntitySet="UsersTest">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StreetName" ColumnName="StreetName" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="NumOfRatings" ColumnName="NumOfRatings" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTypesTests">
+      <EntityTypeMapping TypeName="DB_111206_asnModel.UserTypesTest">
+        <MappingFragment StoreEntitySet="UserTypesTest">
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserTypeDescription" ColumnName="UserTypeDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
